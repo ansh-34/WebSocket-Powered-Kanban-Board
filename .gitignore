@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Logs
+*.log
+
+# Test artifacts
+coverage/
+playwright-report/
+test-results/
+
+# Env files
+.env
+.env.*
