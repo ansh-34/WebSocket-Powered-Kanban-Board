@@ -40,7 +40,7 @@ function KanbanBoard() {
     const [error, setError] = useState("");
 
     useEffect(() => {
-        const socketInstance = io("http://localhost:5000", {
+        const socketInstance = io("https://websocket-powered-kanban-board-9o0j.onrender.com", {
             reconnection: true,
             reconnectionAttempts: 5,
             reconnectionDelay: 500,
